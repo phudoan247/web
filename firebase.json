@@ -6,16 +6,14 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [
+    "rewrites": [
       {
-        "source": "/index.html",
-        "destination": "/",
-        "type": 301
+        "source": "/production",
+        "destination": "/production.html"
       },
       {
-        "source": "/production.html",
-        "destination": "/production",
-        "type": 301
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }

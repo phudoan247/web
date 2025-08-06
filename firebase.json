@@ -6,15 +6,29 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {
+        "source": "/production.html",
+        "destination": "/production",
+        "type": 301
+      }
+      ,
+      {
+        "source": "/index.html",
+        "destination": "/",
+        "type": 301
+      }
+    ],
     "rewrites": [
       {
         "source": "/production",
         "destination": "/production.html"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
       }
+      // ,
+      // {
+      //   "source": "**",
+      //   "destination": "/index.html"
+      // }
     ]
   }
 }

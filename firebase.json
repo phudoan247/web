@@ -18,11 +18,11 @@
         "destination": "/",
         "type": 301
       },
-      {
-        "source": "/app-ads.txt",
-        "destination": "/app-ads.txt",
-        "type": 301
-      }
+      // {
+      //   "source": "/app-ads.txt",
+      //   "destination": "/app-ads.txt",
+      //   "type": 301
+      // }
     ],
     "rewrites": [
       {
